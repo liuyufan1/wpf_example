@@ -45,6 +45,7 @@ public partial class MainWindow : Window
         
         if (e.LeftButton != System.Windows.Input.MouseButtonState.Pressed)
             return;
+        
         // 如果窗口是最大化状态，调整为正常状态并设置位置
         if (this.WindowState == WindowState.Maximized)
         {
